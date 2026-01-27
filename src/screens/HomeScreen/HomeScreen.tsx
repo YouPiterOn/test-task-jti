@@ -1,11 +1,10 @@
-import { Text, View } from "react-native";
-import { Countdown } from '../../components';
+import { View } from "react-native";
+import { CountdownCard } from '../../components';
 
 export default function HomeScreen() {
   return (
-    <View>
-      <Text>Home Screen</Text>
-      <Countdown />
+    <View style={{ padding: 10 }}>
+      <CountdownCard />
     </View>
   );
 }

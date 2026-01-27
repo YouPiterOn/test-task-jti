@@ -1,20 +1,18 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  card: {
+  container: {
     justifyContent: 'center',
     alignItems: 'center',
     padding: 10,
-    borderRadius: 10,
-    backgroundColor: 'white',
-    elevation: 5
+    width: '100%',
   },
-  cardTitle: {
-    fontSize: 24,
+  countdownText: {
+    fontSize: 20,
     fontWeight: 'bold',
     color: 'black',
-    marginBottom: 10,
   },
+
 });
 
 export default styles;
