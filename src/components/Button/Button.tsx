@@ -9,7 +9,11 @@ interface ButtonProps {
 
 export default function Button({ title, onPress, disabled = false }: ButtonProps) {
   return (
-    <Pressable style={styles.button} onPress={onPress} disabled={disabled} >
+    <Pressable style={({ pressed }) => [
+      styles.button,
+      pressed && styles.buttonPressed,
+      disabled && styles.buttonDisabled
+    ]} onPress={onPress} disabled={disabled} >
       <Text style={styles.buttonText}>{title}</Text>
     </Pressable>
   );

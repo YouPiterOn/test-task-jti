@@ -16,6 +16,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
+  buttonPressed: {
+    backgroundColor: 'darkgreen',
+  },
+  buttonDisabled: {
+    opacity: 0.5,
+  },
 });
 
 export default styles;
