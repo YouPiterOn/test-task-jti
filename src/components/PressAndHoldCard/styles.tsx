@@ -1,15 +1,10 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  container: {
-    padding: 10,
-    gap: 20,
-  },
   text: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: 'bold',
     color: 'black',
-    textAlign: 'center',
   },
 });
 
